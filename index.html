@@ -1,19 +1,21 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-      <title>Cam's Site</title>
-      <style>
+
+<head>
+    <title>Cam's Site</title>
+    <style>
         body {
             background: rgb(0, 0, 0);
             color: rgb(255, 255, 255);
             padding: 10px;
             font-family: Arial, Helvetica, sans-serif;
         }
+
         #all-contents {
             max-width: 800px;
             margin: auto;
         }
-    
+
         /* navigation menu */
         nav {
             background: rgb(107, 38, 21);
@@ -22,6 +24,7 @@
             display: flex;
             padding: 10px;
         }
+
         h1 {
             display: flex;
             align-items: center;
@@ -29,82 +32,92 @@
             flex: 1;
             margin: 0;
         }
+
         #nav-ul {
             list-style-image: none;
         }
+
         .nav-li {
             display: inline-block;
             padding: 0 10px;
         }
+
         a {
             text-decoration: none;
             color: rgb(247, 243, 243);
         }
-    
+
         /* main container area beneath menu */
         main {
             background: rgb(0, 0, 0);
             display: flex;
         }
+
         .sidebar {
             margin-right: 25px;
             padding: 10px;
         }
+
         .sidebar-img {
             width: 200px;
         }
+
         .content {
             flex: 1;
             padding: 15px;
         }
+
         #interests {
             border: 4px silver ridge;
             padding: 8px;
         }
-        h2, h3 {
+
+        h2,
+        h3 {
             margin: 0px;
         }
     </style>
-    
-  </head>
-    
-    <body>
-        <!-- All content goes here -->
-        <div id="all-contents">
-            <nav>
-                <h1>Cam's Site</h1>
-                <ul id="nav-ul">
-                    <li class="nav-li">
-                        <a class="nav-a" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-li">
-                        <a class="nav-a" href="portfolio.html">Portfolio</a>
-                    </li>
-                </ul>
-            </nav>
-          
-            <main>
-                <!-- Sidebar section -->
-                <div class="sidebar">
-                    <img class="sidebar-img" src="https://www.pinterest.com/pin/453456256239506498/">
-                </div>
 
-                <!-- Content section -->
-                <div class="content">
-                    <h2>Cam</h2>
-                    <p>Student at ACA</p>
+</head>
+
+<body>
+    <!-- All content goes here -->
+    <div id="all-contents">
+        <nav>
+            <h1>Cam's Site</h1>
+            <ul id="nav-ul">
+                <li class="nav-li">
+                    <a class="nav-a" href="index.html">Home</a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-a" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Sidebar section -->
+            <div class="sidebar">
+                <img class="sidebar-img" src="Images/Pharrel.jpg">
+            </div>
+
+            <!-- Content section -->
+            <div class="content">
+                <h2>Cam</h2>
+                <p>Student at ACA</p>
 
                 <!-- Interests section -->
                 <div id="interests">
                     <h3> Interests</h3>
                     <ul>
                         <li>Drawing</li>
-                        <li>Making music</li>
-                        <li>Watching Tv</li>
+                        <li>Making Music</li>
+                        <li>Watching TV</li>
                     </ul>
                 </div>
-                </div>
-            </main>
-       </div>
-     </body>
+            </div>
+        </main>
+    </div>
+</body>
+
 </html>
