@@ -33,7 +33,6 @@
         createCannon("right", 230, 1000);
         createCannon("left", 230, 1000);
         createCannon("top", 480);
-        createCannon("top", )
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
